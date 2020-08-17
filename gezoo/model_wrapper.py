@@ -3,7 +3,7 @@ from facenet_models import FacenetModel
 
 _model = FacenetModel()
 
-def feed_mtcnn(image, threshold=0.8):
+def feed_mtcnn(image, threshold=0.9):
   """Feeds the model an image get boxes for faces with certain proababilities
 
   Parameters
